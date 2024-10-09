@@ -14,3 +14,11 @@ cartao.innerHtml =
     <p>O JavaScript é uma linguaguem de programação</p> 
 </div>
 </div>
+
+let respostaEstaVisivel = false;
+
+funct
+
+
+container.appenChild(cartao)
+}
