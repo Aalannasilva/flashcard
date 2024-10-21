@@ -56,12 +56,12 @@ body{
     font-weight: 500;
 }
 
-.cartao__conteudo__resposta p {
+.cartao__conteudo__resposta {
     color: var(--card-back-color);
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -99,14 +99,16 @@ footer p {
     body {
         background: url('img/bg-mobile.webp');
     }
+
     .cartao {
-        flex: 1 0 calc(100% - 1rem);
+        flex: 1 0 calc(100% - 1rem)
     }
 
     .cartao__conteudo h3 {
-        font-size:3vw;
+        font-size: 3vw;
     }
 
     .cartao__conteudo p {
         font-size: 3.8vw;
     }
+}
